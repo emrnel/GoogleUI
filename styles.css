@@ -1,0 +1,153 @@
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-signin {
+    background-color: #2d5bd0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-signin:hover {
+    background-color: #1c3d9b;
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.google-logo {
+    width: 70%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.google-search {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.google-search input[type="text"] {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.google-search button {
+    background-color: #f8f9fa00;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.google-search button:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.google-search button:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.google-search button img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-buttons button {
+    border: none;
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+.search-buttons button:hover {
+    background-color: #e0e0e0;
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+.bottom-navbar a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.bottom-navbar a:hover {
+    color: #007bff;
+}
+
+.bottom-left-nav, .bottom-right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-center-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
